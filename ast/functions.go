@@ -325,6 +325,9 @@ const (
 
 	// TiDB internal function.
 	TiDBDecodeKey = "tidb_decode_key"
+
+	// My function
+	DotaScore = "dota_score"
 )
 
 // FuncCallExpr is for function expression.

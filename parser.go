@@ -39,6 +39,8 @@ import (
 	"github.com/pingcap/parser/mysql"
 	"github.com/pingcap/parser/opcode"
 	"github.com/pingcap/parser/types"
+
+	"log"
 )
 
 type yySymType struct {
@@ -9079,6 +9081,7 @@ yynewstate:
 		__yyfmt__.Printf("reduce using rule %v (%s), and goto state %d\n", r, yySymNames[x], yystate)
 	}
 
+	log.Println("")
 	switch r {
 	case 2:
 		{
