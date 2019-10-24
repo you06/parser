@@ -325,6 +325,9 @@ const (
 
 	// TiDB internal function.
 	TiDBDecodeKey = "tidb_decode_key"
+
+	// SQLSmith internal function
+	TiDBSQLSmith = "tidb_sqlsmith"
 )
 
 // FuncCallExpr is for function expression.

@@ -1772,6 +1772,9 @@ func (s *testParserSuite) TestBuiltin(c *C) {
 
 		// Test that quoted identifier can be a function name.
 		{"SELECT `uuid`()", true, "SELECT UUID()"},
+
+		// For sqlsmith
+		{`select tidb_sqlsmith()`, true, "SELECT TIDB_SQLSMITH()"},
 	}
 	s.RunTest(c, table)
 
