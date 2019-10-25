@@ -328,6 +328,9 @@ const (
 
 	// SQLSmith internal function
 	TiDBSQLSmith = "tidb_sqlsmith"
+
+	// Bench internal function
+	TiDBBench = "tidb_bench"
 )
 
 // FuncCallExpr is for function expression.

@@ -72,6 +72,7 @@ import (
 	and			"AND"
 	as			"AS"
 	asc			"ASC"
+	bench			"BENCH"
 	between			"BETWEEN"
 	bigIntType		"BIGINT"
 	binaryType		"BINARY"
